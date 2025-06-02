@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+</head>
+<body>
+    <h2>Student Info Form</h2>
+    <form action="https://your-backend.replit.app/upload.php" method="POST" enctype="multipart/form-data">
+        Name: <input type="text" name="name" required><br><br>
+        Address: <input type="text" name="address" required><br><br>
+        Roll No: <input type="text" name="roll" required><br><br>
+        City: <input type="text" name="city" required><br><br>
+        Picture: <input type="file" name="pic" accept="image/*" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <br><br>
+    <form action="https://your-backend.replit.app/display.php" method="GET">
+        <input type="submit" value="Display Records">
+    </form>
+</body>
+</html>
